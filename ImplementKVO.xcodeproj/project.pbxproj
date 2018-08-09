@@ -13,6 +13,9 @@
 		100776D2211C5885003C9D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100776D1211C5885003C9D70 /* Assets.xcassets */; };
 		100776D5211C5885003C9D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100776D3211C5885003C9D70 /* LaunchScreen.storyboard */; };
 		100776D8211C5885003C9D70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 100776D7211C5885003C9D70 /* main.m */; };
+		100776E1211C590B003C9D70 /* NSObject+kvoImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 100776E0211C590B003C9D70 /* NSObject+kvoImplement.m */; };
+		100776E5211C59F6003C9D70 /* IPKVOInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 100776E4211C59F6003C9D70 /* IPKVOInfo.m */; };
+		100776E8211C5CFC003C9D70 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 100776E6211C5CFC003C9D70 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		100776D4211C5885003C9D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		100776D6211C5885003C9D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		100776D7211C5885003C9D70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		100776DF211C590B003C9D70 /* NSObject+kvoImplement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+kvoImplement.h"; sourceTree = "<group>"; };
+		100776E0211C590B003C9D70 /* NSObject+kvoImplement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+kvoImplement.m"; sourceTree = "<group>"; };
+		100776E3211C59F6003C9D70 /* IPKVOInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPKVOInfo.h; sourceTree = "<group>"; };
+		100776E4211C59F6003C9D70 /* IPKVOInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPKVOInfo.m; sourceTree = "<group>"; };
+		100776E6211C5CFC003C9D70 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		100776E7211C5CFC003C9D70 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,9 @@
 		100776C7211C5884003C9D70 /* ImplementKVO */ = {
 			isa = PBXGroup;
 			children = (
+				100776E7211C5CFC003C9D70 /* Person.h */,
+				100776E6211C5CFC003C9D70 /* Person.m */,
+				100776DE211C58B0003C9D70 /* ImplementKVO */,
 				100776C8211C5884003C9D70 /* AppDelegate.h */,
 				100776C9211C5884003C9D70 /* AppDelegate.m */,
 				100776CB211C5884003C9D70 /* ViewController.h */,
@@ -67,6 +79,17 @@
 				100776D3211C5885003C9D70 /* LaunchScreen.storyboard */,
 				100776D6211C5885003C9D70 /* Info.plist */,
 				100776D7211C5885003C9D70 /* main.m */,
+			);
+			path = ImplementKVO;
+			sourceTree = "<group>";
+		};
+		100776DE211C58B0003C9D70 /* ImplementKVO */ = {
+			isa = PBXGroup;
+			children = (
+				100776DF211C590B003C9D70 /* NSObject+kvoImplement.h */,
+				100776E0211C590B003C9D70 /* NSObject+kvoImplement.m */,
+				100776E3211C59F6003C9D70 /* IPKVOInfo.h */,
+				100776E4211C59F6003C9D70 /* IPKVOInfo.m */,
 			);
 			path = ImplementKVO;
 			sourceTree = "<group>";
@@ -141,8 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100776E8211C5CFC003C9D70 /* Person.m in Sources */,
+				100776E1211C590B003C9D70 /* NSObject+kvoImplement.m in Sources */,
 				100776CD211C5884003C9D70 /* ViewController.m in Sources */,
 				100776D8211C5885003C9D70 /* main.m in Sources */,
+				100776E5211C59F6003C9D70 /* IPKVOInfo.m in Sources */,
 				100776CA211C5884003C9D70 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
